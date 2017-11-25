@@ -17,5 +17,6 @@ from django.conf.urls import include, url
 from . import views
 
 urlpatterns = [
-    url(r'^dramas', views.dramas, name='dramas'),
+    url(r'dramas', views.dramas_page),
+    url(r'get_data$', views.get_data),
 ]
