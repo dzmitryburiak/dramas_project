@@ -81,7 +81,7 @@ DATABASES = {
         'NAME': 'dramas_DB',
         'USER': 'root',                      # Not used with sqlite3.
         'PASSWORD': 'test',                  # Not used with sqlite3.
-        'HOST': '127.0.0.1',                      # Set to empty string for loc$
+        'HOST': '127.0.0.2',                      # Set to empty string for loc$
         'PORT': '3306',                      # Set to empty string for default.$
     }
 }
