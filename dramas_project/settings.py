@@ -78,10 +78,10 @@ WSGI_APPLICATION = 'dramas_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', # Add 'postgresql_psycopg2', 'mys$
-        'NAME': 'dramas_DB',
+        'NAME': 'drama_db',
         'USER': 'root',                      # Not used with sqlite3.
-        'PASSWORD': 'test',                  # Not used with sqlite3.
-        'HOST': '127.0.0.1',                      # Set to empty string for loc$
+        'PASSWORD': 'Fourfive45',                  # Not used with sqlite3.
+        'HOST': 'localhost',                      # Set to empty string for loc$
         'PORT': '3306',                      # Set to empty string for default.$
     }
 }
