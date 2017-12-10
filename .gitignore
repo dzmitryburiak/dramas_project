@@ -107,3 +107,13 @@ venv.bak/
 
 .idea/
 extra/
+
+# compiled output
+/dramasui/dist
+/dramasui/tmp
+/dramasui/out-tsc
+
+
+# dependencies
+/dramasui/node_modules
+

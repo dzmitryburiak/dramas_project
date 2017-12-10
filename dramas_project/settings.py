@@ -51,7 +51,11 @@ MIDDLEWARE_CLASSES = (
 )
 
 ROOT_URLCONF = 'dramas_project.urls'
-
+STATIC_URL = '/dramasui/dist/'
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "dramasui/dist"),
+    '/dramasui/dist/',
+]
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -80,8 +84,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql', # Add 'postgresql_psycopg2', 'mys$
         'NAME': 'drama_db',
         'USER': 'root',                      # Not used with sqlite3.
-        'PASSWORD': 'Fourfive45',                  # Not used with sqlite3.
-        'HOST': 'localhost',                      # Set to empty string for loc$
+        'PASSWORD': 'test',                  # Not used with sqlite3.
+        'HOST': '127.0.0.1',                      # Set to empty string for loc$
         'PORT': '3306',                      # Set to empty string for default.$
     }
 }
@@ -98,9 +102,3 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
-
-
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/1.8/howto/static-files/
-
-STATIC_URL = '/static/'
