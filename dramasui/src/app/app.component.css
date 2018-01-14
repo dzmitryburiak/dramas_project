@@ -1,0 +1,20 @@
+
+header, footer {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #1A1B16;
+  position: fixed;
+}
+
+header {
+  top: 0;
+}
+
+footer {
+  bottom: 0;
+}
+
+.content {
+  padding: 70px 10px;
+}
